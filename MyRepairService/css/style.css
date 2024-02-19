@@ -1,0 +1,129 @@
+* {
+    margin: 0;
+    padding: 0;
+    min-height: 100%;
+    transition: 0.1s ease-in-out;
+}
+
+body {
+    font-family: Poppins;
+    font-size: large;
+    background: rgb(225, 237, 255);
+    background: linear-gradient(180deg, rgba(225, 237, 255, 1) 0%, rgba(97, 154, 241, 1) 100%);
+}
+
+/* .header1 for phone and email*/
+.header1 {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1400px;
+    margin: auto;
+}
+
+.header1bg {
+    background-color: black;
+}
+
+.header1 div {
+    padding: 0.5rem;
+}
+
+.header1 i {
+    color: gold;
+}
+
+.header1 a {
+    color: white;
+    margin: 1rem;
+    text-decoration: none;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1400px;
+    margin: auto;
+}
+
+/*nav logo*/
+.header .navLogo {
+    margin: 1rem 1rem 1rem 3rem;
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+.navLogo a {
+    text-decoration: none;
+    color: blue;
+}
+
+/* NAV bar */
+.nav {
+    margin: 1rem 3rem 1rem 1rem;
+}
+
+.nav ul {
+    display: flex;
+
+}
+
+.nav li {
+    list-style: none;
+    margin-left: 2rem;
+}
+
+.nav a {
+    text-decoration: none;
+}
+
+.nav a {
+    color: black;
+}
+
+.nav a:hover {
+    color: blue;
+}
+
+/* body body body*/
+
+.heroContainer {
+    display: flex;
+    margin: 3rem;
+    margin-bottom: 0;
+    justify-content: space-evenly;
+    max-width: 1400px;
+    margin: auto;
+}
+
+.heroText {
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.heroText h1 {
+    font-weight: 700;
+    font-size: 3rem;
+    line-height: 3.5rem;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+}
+
+.heroImage {
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.HeroContactBtn {
+    margin-top: 1rem;
+    max-width: fit-content;
+    background-color: gold;
+    border: none;
+    padding: 1rem;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: large;
+}
