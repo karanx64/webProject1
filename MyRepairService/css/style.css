@@ -5,15 +5,17 @@
     transition: 0.1s ease-in-out;
 }
 
-.bodyContainer1{
+
+.bodyContainer1 {
     background: rgb(225, 237, 255);
     background: linear-gradient(180deg, rgba(225, 237, 255, 1) 0%, rgba(97, 154, 241, 1) 100%);
-    min-height:100vh;
+    min-height: max-content
 }
+
 body {
     font-family: Poppins;
     font-size: large;
-    
+
 }
 
 /* .header1 for phone and email*/
@@ -103,6 +105,7 @@ body {
 
 .heroText {
     margin: auto;
+    margin-top: 3rem;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -135,36 +138,121 @@ body {
 
 /* Features Section */
 
-.container1{
+.container1 {
     display: flex;
 }
 
-.featureContainer{
+.featureContainer {
     display: flex;
     margin: auto;
     margin-top: -7rem;
 }
-.feature{
+
+.feature {
+
     border-radius: 10px;
     margin: 1rem;
     padding: 2rem;
     text-align: center;
     box-shadow: rgb(88, 88, 88) 0px 5px 15px;
-    
+
 }
-.feature img{
+
+.feature img {
     height: 6rem;
 }
-.feature:nth-child(1){
-    background-color: white;
-}
-.feature:nth-child(2){
-    background-color: gold;
-}
-.feature:nth-child(3){
+
+.feature:nth-child(1) {
     background-color: white;
 }
 
-.feature:hover{
+.feature:nth-child(2) {
     background-color: gold;
+}
+
+.feature:nth-child(3) {
+    background-color: white;
+}
+
+.feature:hover {
+    background-color: gold;
+}
+
+.heroContainer {
+    margin-top: 5rem;
+}
+
+#aboutImage1 {
+    width: 35rem;
+}
+
+/*footer footer footer*/
+.footerContainer {
+    background-color: rgb(0, 0, 66);
+}
+
+.footer {
+    margin-top: 5rem;
+    max-width: 1400px;
+    color: white;
+    margin: auto;
+    margin-top: 10rem;
+
+    text-align: center;
+}
+
+
+.footerHeadingUp {
+    padding: 3rem 0;
+    font-size: x-large;
+    font-weight: 600;
+}
+
+.footerDesignContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footerDesignContainer i {
+    font-size: 1.5rem;
+    width: 80px;
+    height: 80px;
+    border-radius: 100%;
+    background-color: blue;
+    color: white;
+    background-repeat: no-repeat;
+    background-position: center;
+    text-align: center;
+    line-height: 80px;
+    margin: auto 7rem;
+}
+
+.footerLinkTitleContainer{
+    display: flex;
+    flex-direction: column;
+}
+
+.footerMid {
+    font-weight: 600;
+    font-size: x-large;
+    padding: 3rem 0;    
+}
+
+.footerDesignContainer1 i {
+    font-size: 1.5rem;
+    color: white;
+    background-repeat: no-repeat;
+    background-position: center;
+    text-align: center;
+    margin: 0 1rem 3rem 1rem;
+}
+
+
+
+
+.footerDown {
+    margin: 0 10rem;
+    padding: 3rem;
+    border-top: 0.1rem solid white;
 }
