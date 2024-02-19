@@ -8,7 +8,7 @@
 .bodyContainer1{
     background: rgb(225, 237, 255);
     background: linear-gradient(180deg, rgba(225, 237, 255, 1) 0%, rgba(97, 154, 241, 1) 100%);
-    height:min-content;
+    min-height:100vh;
 }
 body {
     font-family: Poppins;
@@ -135,7 +135,7 @@ body {
 
 /* Features Section */
 
-.container{
+.container1{
     display: flex;
 }
 
@@ -163,4 +163,8 @@ body {
 }
 .feature:nth-child(3){
     background-color: white;
+}
+
+.feature:hover{
+    background-color: gold;
 }
