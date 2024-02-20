@@ -233,7 +233,7 @@ body {
     flex-direction: column;
 }
 
-.footerLinkTitleContainer:hover{
+.footerLinkTitleContainer i:hover{
     background-color:gold;
 }
 
