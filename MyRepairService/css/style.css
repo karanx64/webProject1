@@ -232,6 +232,11 @@ body {
     display: flex;
     flex-direction: column;
 }
+
+.footerLinkTitleContainer:hover{
+    background-color:gold;
+}
+
 .footerLinkTitleContainer div{
     margin-top: 2rem;
 }
