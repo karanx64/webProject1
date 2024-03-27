@@ -119,9 +119,13 @@ body {
 }
 
 .heroImage {
+
     margin: auto;
     display: flex;
     flex-direction: column;
+}
+.heroImage img{
+    height: 30rem;
 }
 
 .HeroContactBtn {
