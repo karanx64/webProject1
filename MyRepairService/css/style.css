@@ -322,3 +322,14 @@ body {
     cursor: pointer;
     font-size: large;
 }
+
+
+/* CONTACT PAGE */
+
+.contactPageContainer{
+    max-width: 1400px;
+    margin: 2rem auto;
+    display: flex;
+    flex-direction: column;
+}
+
