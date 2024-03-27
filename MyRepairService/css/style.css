@@ -329,7 +329,52 @@ body {
 .contactPageContainer{
     max-width: 1400px;
     margin: 2rem auto;
+    padding: 2rem;
     display: flex;
     flex-direction: column;
 }
 
+.contactSectionContainer{
+    display: flex;
+    justify-content: space-evenly;
+}
+.contactSection{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+.contactInputMessage{
+    height: 50%;
+}
+.contactSection input{
+    padding: 1rem;
+    margin: 1rem;
+    box-shadow: rgb(88, 88, 88) 0px 5px 15px;
+    outline: none;
+    border: none;
+    border-radius: 10px;
+}
+.mapSection{
+    display: flex;
+    align-items: center;
+
+}
+.mapSection img{
+    height:25rem;
+    margin: 1rem;
+    border-radius: 10px;
+}
+.contactPageBtn{
+    margin: 1rem;
+    background-color: gold;
+    border: none;
+    padding: 1rem;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: large;
+    box-shadow: rgb(88, 88, 88) 0px 5px 15px;
+}
+.contactPageHeading{
+    margin: 0 0 2rem 13rem;
+}
