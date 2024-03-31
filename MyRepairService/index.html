@@ -8,6 +8,7 @@
 
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/responsive.css">
+    <link rel="stylesheet" href="css/sliders.css">
 
     <link rel="icon" type="image/x-icon" href="images/favicon.ico">
 
@@ -142,6 +143,25 @@
     </div>
     </div>
 
+    <div class="heroSliderContainer">
+        <h1>WHAT OUR CLIENTS SAY</h1>
+        <div class="swiper mySwiper">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    hello
+
+
+                </div>
+
+
+                <div class="swiper-slide">
+
+world
+                </div>
+            </div>
+        </div>
+    </div>
+
 
 
 
@@ -180,6 +200,24 @@
         </div>
     </div>
 
+
+
+    <script src="scripts/script.js"></script>
+    <script>
+        var swiper1 = new Swiper('.mySwiper', {
+            
+            autoplay: {
+                
+                delay: 2000,
+            },
+            navigation: {
+                nextEl: '.swiper-button-next',
+                prevEl: '.swiper-button-prev',
+            },
+            loop:true,
+        });
+        
+    </script>
 </body>
 
 
