@@ -386,6 +386,9 @@ body {
 
 /* index page sliders*/
 .swiper {
+    box-shadow: rgb(88, 88, 88) 0px 5px 15px;
+    border-radius: 10px;
+
     width: 600px;
     height: 300px;
     margin-top: 5rem;
@@ -395,6 +398,16 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
+}
+.swiper-slide p{
+    margin: 2rem;
+}
+.swiper-slide img{
+    box-shadow: rgb(88, 88, 88) 0px 5px 15px;
+
+    border-radius: 10px;
+
 }
 
 .heroSliderContainer{
