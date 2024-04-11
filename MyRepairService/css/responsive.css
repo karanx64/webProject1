@@ -4,8 +4,8 @@
     }
     .header {
         display: flex;
-        flex-direction: column;
-    }
+       flex-direction: column;
+    } 
     
     /*nav logo*/
     .header .navLogo {
@@ -47,5 +47,10 @@
     .footerDesignContainer{
         flex-direction: column;
     }
-    
+    .footerLinkTitleContainer{
+        margin-bottom: 4rem;
+    }
+    .footerLinkTitleContainer div{
+        margin-top: 1rem;
+    }
   }
