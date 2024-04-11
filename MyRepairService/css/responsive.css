@@ -6,7 +6,9 @@
         display: flex;
        flex-direction: column;
     } 
-    
+    body{
+        max-width: 1080px;
+    }
     /*nav logo*/
     .header .navLogo {
         margin: 1rem;
@@ -28,6 +30,9 @@
         max-width: 1080px;
         margin: 1rem;
     }
+    .servicesBoxContainer{
+        flex-direction: column;
+    }
   }
   @media only screen and (max-width:900px) {
     .heroContainer
@@ -44,6 +49,17 @@
     
   }
   @media only screen and (max-width:768px) {
+
+    .header1{
+        flex-direction: column;
+    }
+    .nav ul{
+        flex-direction: column;
+        text-align: center;
+    }
+    .nav li{
+        margin: auto;
+    }
     .footerDesignContainer{
         flex-direction: column;
     }
@@ -53,4 +69,40 @@
     .footerLinkTitleContainer div{
         margin-top: 1rem;
     }
+  .footerDown{
+    margin:0;
   }
+  .featureContainer{
+    flex-direction: column;
+  }
+  .swiper{
+    width: 200px;
+    height: 400px;
+    text-align: center;
+  }
+  .contactSectionContainer{
+    flex-direction: column;
+  }
+  .contactPageHeading{
+    margin: auto;
+  }
+
+  .mapSection{
+    justify-content: center;
+  }
+  .mapSection img{
+    width: 17rem;
+    height: 17rem;
+  }
+}
+@media only screen and (max-width:980px){
+    .contactSectionContainer{
+        flex-direction: column;
+    }
+    .mapSection{
+        justify-content: center;
+      }
+    .contactPageHeading{
+        margin: auto;
+    }
+}
