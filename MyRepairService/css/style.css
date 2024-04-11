@@ -12,7 +12,7 @@
 }
 
 body {
-    font-family: Poppins;
+    font-family: sans-serif;
     font-size: large;
 
 }
@@ -427,3 +427,6 @@ body {
     margin-bottom: 1rem;
     text-align: center;
 }
+
+
+
