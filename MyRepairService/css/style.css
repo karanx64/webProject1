@@ -8,7 +8,7 @@
 .bodyContainer1 {
     background: rgb(225, 237, 255);
     background: linear-gradient(180deg, rgba(225, 237, 255, 1) 0%, rgba(97, 154, 241, 1) 100%);
-   
+
 }
 
 body {
@@ -110,7 +110,7 @@ body {
     justify-content: space-between;
 }
 
-.heroText h1{
+.heroText h1 {
     font-weight: 700;
     font-size: 3rem;
     line-height: 3.5rem;
@@ -124,7 +124,8 @@ body {
     display: flex;
     flex-direction: column;
 }
-.heroImage img{
+
+.heroImage img {
     height: 30rem;
 }
 
@@ -211,7 +212,7 @@ body {
     font-weight: 600;
 }
 
-.footerDesignContainer{
+.footerDesignContainer {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -231,23 +232,23 @@ body {
     margin: auto 7rem;
 }
 
-.footerLinkTitleContainer{
+.footerLinkTitleContainer {
     display: flex;
     flex-direction: column;
 }
 
-.footerLinkTitleContainer i:hover{
-    background-color:gold;
+.footerLinkTitleContainer i:hover {
+    background-color: gold;
 }
 
-.footerLinkTitleContainer div{
+.footerLinkTitleContainer div {
     margin-top: 2rem;
 }
 
 .footerMid {
     font-weight: 600;
     font-size: x-large;
-    padding: 3rem 0;    
+    padding: 3rem 0;
     margin-top: 1rem;
 }
 
@@ -274,7 +275,7 @@ body {
 
 /* services page */
 
-.servicesPageContainer{
+.servicesPageContainer {
     max-width: 1400px;
     margin: 2rem auto;
     display: flex;
@@ -283,22 +284,23 @@ body {
 }
 
 
-.servicesBoxContainer{
+.servicesBoxContainer {
     display: flex;
     text-align: center;
 }
+
 .servicesBox {
     box-shadow: rgb(88, 88, 88) 0px 5px 15px;
     display: flex;
     flex-direction: column;
-    border-radius:10px ;
+    border-radius: 10px;
     background-color: white;
 
     margin: 2rem;
     padding: 2rem;
 }
 
-.servicesBox:hover{
+.servicesBox:hover {
     background-color: gold;
     cursor: pointer;
 }
@@ -308,15 +310,15 @@ body {
     align-self: center;
     height: 5rem;
     margin-bottom: 1rem;
-    
+
 }
 
-.servicesBox h4{
-    margin-bottom: 1rem ;
+.servicesBox h4 {
+    margin-bottom: 1rem;
 }
 
 
-.servicesPageBtn{
+.servicesPageBtn {
     margin-top: 1rem;
     max-width: fit-content;
     background-color: gold;
@@ -330,7 +332,7 @@ body {
 
 /* CONTACT PAGE */
 
-.contactPageContainer{
+.contactPageContainer {
     max-width: 1400px;
     margin: 2rem auto;
     padding: 2rem;
@@ -338,20 +340,23 @@ body {
     flex-direction: column;
 }
 
-.contactSectionContainer{
+.contactSectionContainer {
     display: flex;
     justify-content: space-evenly;
 }
-.contactSection{
+
+.contactSection {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
 
 }
-.contactInputMessage{
+
+.contactInputMessage {
     height: 50%;
 }
-.contactSection input{
+
+.contactSection input {
     padding: 1rem;
     margin: 1rem;
     box-shadow: rgb(88, 88, 88) 0px 5px 15px;
@@ -359,17 +364,20 @@ body {
     border: none;
     border-radius: 10px;
 }
-.mapSection{
+
+.mapSection {
     display: flex;
     align-items: center;
 
 }
-.mapSection img{
-    height:25rem;
+
+.mapSection img {
+    height: 25rem;
     margin: 1rem;
     border-radius: 10px;
 }
-.contactPageBtn{
+
+.contactPageBtn {
     margin: 1rem;
     background-color: gold;
     border: none;
@@ -379,7 +387,8 @@ body {
     font-size: large;
     box-shadow: rgb(88, 88, 88) 0px 5px 15px;
 }
-.contactPageHeading{
+
+.contactPageHeading {
     margin: 0 0 2rem 13rem;
 }
 
@@ -393,6 +402,7 @@ body {
     height: 300px;
     margin-top: 5rem;
 }
+
 .swiper-slide {
     background: #f1f1f1;
     display: flex;
@@ -400,26 +410,29 @@ body {
     align-items: center;
     flex-direction: column;
 }
-.swiper-slide p{
+
+.swiper-slide p {
     margin: 2rem;
 }
-.swiper-slide img{
+
+.swiper-slide img {
     box-shadow: rgb(88, 88, 88) 0px 5px 15px;
 
     border-radius: 10px;
 
 }
 
-.heroSliderContainer{
+.heroSliderContainer {
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
     max-width: 1400px;
     margin: auto;
-    
-    margin-top:8rem ;
+
+    margin-top: 8rem;
 }
-.heroSliderContainer h1{
+
+.heroSliderContainer h1 {
     font-weight: 700;
     font-size: 3rem;
     line-height: 3.5rem;
@@ -428,30 +441,87 @@ body {
     text-align: center;
 }
 
-
-
-.heroContainerConstruction{
-    display: flex;
-    
+.heroSliderContainer a {
+    text-decoration: none;
+    color: white;
+    background-color: blue;
+    width: fit-content;
+    margin: auto;
+    margin-top: 2rem;
+    padding: 0.5rem;
+    border-radius: 10px;
+    align-items: center;
 }
-.constructionBody{
-    margin:10rem auto 5rem auto;
+
+
+.heroContainerConstruction {
+    display: flex;
+
+}
+
+.constructionBody {
+    margin: 10rem auto 5rem auto;
     text-align: center;
     font-size: 2rem;
 
 }
-.constructionBody h1{
+
+.constructionBody h1 {
     color: blue
 }
-.constructionBody h3{
+
+.constructionBody h3 {
     margin-top: 1rem;
     margin-bottom: 2rem;
 }
-.constructionBody a{
+
+.constructionBody a {
     text-decoration: none;
     margin-top: 5rem;
     background-color: gold;
     color: black;
     padding: 0.5rem;
     border-radius: 10px;
+}
+
+.commentsPageContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 5rem;
+}
+
+.commentsPageHeading {
+    margin-bottom: 1rem;
+}
+
+.commentsSection {
+    background-color: white;
+    padding: 2rem;
+    border-radius: 10px;
+    margin: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.commentsBox {
+    margin: 1rem auto;
+    display: flex;
+}
+
+.comment {
+    border: 0.1rem solid black;
+    padding: 2rem;
+    margin-left: 1rem;
+    border-radius: 10px;
+    width: 70%;
+}
+
+.commentUserImage img {
+    width: 5rem;
+    margin: 2rem 0 0 1rem;
+    border-radius: 100%;
 }
