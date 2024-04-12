@@ -430,3 +430,28 @@ body {
 
 
 
+.heroContainerConstruction{
+    display: flex;
+    
+}
+.constructionBody{
+    margin:10rem auto 5rem auto;
+    text-align: center;
+    font-size: 2rem;
+
+}
+.constructionBody h1{
+    color: blue
+}
+.constructionBody h3{
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+}
+.constructionBody a{
+    text-decoration: none;
+    margin-top: 5rem;
+    background-color: gold;
+    color: black;
+    padding: 0.5rem;
+    border-radius: 10px;
+}
