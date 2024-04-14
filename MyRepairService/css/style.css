@@ -130,6 +130,7 @@ body {
 }
 
 .HeroContactBtn {
+    text-decoration: none;
     margin-top: 1rem;
     max-width: fit-content;
     background-color: gold;
@@ -138,6 +139,7 @@ body {
     border-radius: 10px;
     cursor: pointer;
     font-size: large;
+    color: black;
 }
 
 /* Features Section */
@@ -327,6 +329,8 @@ body {
     border-radius: 10px;
     cursor: pointer;
     font-size: large;
+    text-decoration: none;
+    color: black;
 }
 
 
@@ -504,11 +508,11 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
+    max-width: 1400px;
 }
 
 .commentsBox {
-    margin: 1rem auto;
+    margin: 1rem ;
     display: flex;
 }
 
@@ -517,11 +521,36 @@ body {
     padding: 2rem;
     margin-left: 1rem;
     border-radius: 10px;
-    width: 70%;
+    width: 90%;
 }
 
 .commentUserImage img {
     width: 5rem;
+    height: 5rem;
+    object-fit: cover;
+    
     margin: 2rem 0 0 1rem;
+    border: 0.1rem solid black;
     border-radius: 100%;
+}
+.commentActions{
+    display: flex;
+    flex-direction: column;
+    margin: 1rem;
+    justify-content: center;
+    gap: 1rem;
+    font-size: 1.5rem;
+}
+.commentActions a{
+    color: white;
+    background-color: black;
+    padding: 0.3rem;
+    border-radius: 100%;
+}
+.commentUserImage i{
+    font-size:  5rem;
+    margin: 2rem 0 0 1rem;
+}
+.commentInput{
+    font-size: 2rem;
 }
